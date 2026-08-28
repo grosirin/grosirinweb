@@ -1,0 +1,1475 @@
+[
+  {
+    "slug": "baby-kanvas",
+    "name": "Totebag Baby Kanvas",
+    "category": "baby-kanvas",
+    "categoryLabel": "Baby Kanvas",
+    "tagline": "Kanvas ringan bertekstur halus untuk pemakaian harian",
+    "shortDesc": "Baby Kanvas bertekstur halus dan ringan, tersedia dalam Hitam, Putih, dan Navy — cocok untuk totebag harian maupun souvenir acara.",
+    "longDesc": "Baby Kanvas adalah kanvas dengan bobot lebih ringan dan permukaan lebih halus dibanding kanvas standar, membuatnya nyaman dipakai harian namun tetap kuat menahan barang bawaan. Tersedia dalam tiga pilihan warna — Hitam, Putih, dan Navy — sehingga mudah disesuaikan dengan identitas brand atau tema acara Anda.",
+    "moq": 10,
+    "image": "produk-baby-kanvas.svg",
+    "gallery": [
+      "produk-baby-kanvas.svg",
+      "produk-baby-kanvas-2.svg",
+      "produk-baby-kanvas-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Baby Kanvas",
+      "Ukuran": "35 x 40 x 10 cm (custom)",
+      "Warna": "Hitam, Putih, Navy",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 17600
+      },
+      {
+        "min": 100,
+        "price": 15000
+      },
+      {
+        "min": 500,
+        "price": 12400
+      }
+    ],
+    "customize": [
+      "Pilihan warna: Hitam, Putih, Navy",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Custom ukuran & desain sesuai kebutuhan"
+    ],
+    "featured": true,
+    "variants": {
+      "colors": [
+        "Hitam",
+        "Putih",
+        "Navy"
+      ],
+      "options": [
+        {
+          "warna": "Hitam",
+          "ukuran": "27 x 38 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17600
+            },
+            {
+              "min": 100,
+              "price": 15000
+            },
+            {
+              "min": 500,
+              "price": 12400
+            }
+          ]
+        },
+        {
+          "warna": "Hitam",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 19000
+            },
+            {
+              "min": 100,
+              "price": 16200
+            },
+            {
+              "min": 500,
+              "price": 13350
+            }
+          ]
+        },
+        {
+          "warna": "Hitam",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 21800
+            },
+            {
+              "min": 100,
+              "price": 18550
+            },
+            {
+              "min": 500,
+              "price": 15350
+            }
+          ]
+        },
+        {
+          "warna": "Hitam",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 24800
+            },
+            {
+              "min": 100,
+              "price": 21150
+            },
+            {
+              "min": 500,
+              "price": 17450
+            }
+          ]
+        },
+        {
+          "warna": "Hitam",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 27000
+            },
+            {
+              "min": 100,
+              "price": 23000
+            },
+            {
+              "min": 500,
+              "price": 19000
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "25 x 30 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 11600
+            },
+            {
+              "min": 100,
+              "price": 9900
+            },
+            {
+              "min": 500,
+              "price": 8150
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "27 x 38 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 13500
+            },
+            {
+              "min": 100,
+              "price": 11500
+            },
+            {
+              "min": 500,
+              "price": 9500
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 15950
+            },
+            {
+              "min": 100,
+              "price": 13600
+            },
+            {
+              "min": 500,
+              "price": 11200
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 18400
+            },
+            {
+              "min": 100,
+              "price": 15650
+            },
+            {
+              "min": 500,
+              "price": 12950
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 19500
+            },
+            {
+              "min": 100,
+              "price": 16600
+            },
+            {
+              "min": 500,
+              "price": 13700
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "40 x 50 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 22500
+            },
+            {
+              "min": 100,
+              "price": 19150
+            },
+            {
+              "min": 500,
+              "price": 15850
+            }
+          ]
+        },
+        {
+          "warna": "Putih",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 23500
+            },
+            {
+              "min": 100,
+              "price": 20000
+            },
+            {
+              "min": 500,
+              "price": 16550
+            }
+          ]
+        },
+        {
+          "warna": "Navy",
+          "ukuran": "27 x 38 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17600
+            },
+            {
+              "min": 100,
+              "price": 15000
+            },
+            {
+              "min": 500,
+              "price": 12400
+            }
+          ]
+        },
+        {
+          "warna": "Navy",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 19000
+            },
+            {
+              "min": 100,
+              "price": 16200
+            },
+            {
+              "min": 500,
+              "price": 13350
+            }
+          ]
+        },
+        {
+          "warna": "Navy",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 21800
+            },
+            {
+              "min": 100,
+              "price": 18550
+            },
+            {
+              "min": 500,
+              "price": 15350
+            }
+          ]
+        },
+        {
+          "warna": "Navy",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 24800
+            },
+            {
+              "min": 100,
+              "price": 21150
+            },
+            {
+              "min": 500,
+              "price": 17450
+            }
+          ]
+        },
+        {
+          "warna": "Navy",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 27000
+            },
+            {
+              "min": 100,
+              "price": 23000
+            },
+            {
+              "min": 500,
+              "price": 19000
+            }
+          ]
+        }
+      ]
+    },
+    "materialCard": true
+  },
+  {
+    "slug": "kanvas-natural",
+    "name": "Totebag Kanvas Natural",
+    "category": "kanvas-natural",
+    "categoryLabel": "Kanvas Natural",
+    "tagline": "Kanvas Marsoto — best seller untuk goodie bag & merchandise korporat",
+    "shortDesc": "Kanvas Marsoto (dipasarkan sebagai Kanvas Natural), tersedia dalam Hitam dan Broken White — pilihan favorit untuk goodie bag dan merchandise korporat.",
+    "longDesc": "Kanvas Natural menggunakan bahan Kanvas Marsoto yang tebal, rapi, dan tampil premium — favorit kami untuk goodie bag seminar, totebag konferensi, hingga merchandise korporat. Tersedia dalam dua pilihan warna, Hitam dan Broken White, yang serasi dipadukan dengan cetak logo brand Anda.",
+    "moq": 10,
+    "image": "produk-kanvas-natural.svg",
+    "gallery": [
+      "produk-kanvas-natural.svg",
+      "produk-kanvas-natural-2.svg",
+      "produk-kanvas-natural-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas Marsoto (Kanvas Natural)",
+      "Ukuran": "35 x 40 x 10 cm (custom)",
+      "Warna": "Hitam, Broken White",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 29000
+      },
+      {
+        "min": 100,
+        "price": 25000
+      },
+      {
+        "min": 500,
+        "price": 20500
+      }
+    ],
+    "customize": [
+      "Pilihan warna: Hitam, Broken White",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Custom ukuran & logo brand"
+    ],
+    "featured": true,
+    "materialCard": true
+  },
+  {
+    "slug": "blacu",
+    "name": "Totebag Blacu",
+    "category": "blacu",
+    "categoryLabel": "Blacu",
+    "tagline": "Tampilan natural eco-friendly dengan harga bersahabat",
+    "shortDesc": "Kain blacu Broken White dengan tekstur natural, pilihan tepat untuk brand yang mengangkat konsep ramah lingkungan.",
+    "longDesc": "Totebag Blacu memiliki tekstur natural Broken White yang identik dengan konsep ramah lingkungan, sering dipilih brand F&B, kosmetik natural, hingga event komunitas hijau. Harganya bersahabat namun tetap kuat untuk pemakaian sehari-hari.",
+    "moq": 10,
+    "image": "produk-blacu.svg",
+    "gallery": [
+      "produk-blacu.svg",
+      "produk-blacu-2.svg",
+      "produk-blacu-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Blacu",
+      "Ukuran": "33 x 38 x 8 cm (custom)",
+      "Warna": "Broken White",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 9400
+      },
+      {
+        "min": 500,
+        "price": 7850
+      },
+      {
+        "min": 2000,
+        "price": 6250
+      }
+    ],
+    "customize": [
+      "Warna Broken White natural",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Cocok untuk konsep brand ramah lingkungan"
+    ],
+    "featured": true,
+    "variants": {
+      "colors": [
+        "Broken White"
+      ],
+      "options": [
+        {
+          "warna": "Broken White",
+          "ukuran": "20 x 30 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 9400
+            },
+            {
+              "min": 500,
+              "price": 7850
+            },
+            {
+              "min": 2000,
+              "price": 6250
+            }
+          ]
+        },
+        {
+          "warna": "Broken White",
+          "ukuran": "27 x 38 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 10200
+            },
+            {
+              "min": 500,
+              "price": 8500
+            },
+            {
+              "min": 2000,
+              "price": 6800
+            }
+          ]
+        },
+        {
+          "warna": "Broken White",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 11150
+            },
+            {
+              "min": 500,
+              "price": 9300
+            },
+            {
+              "min": 2000,
+              "price": 7450
+            }
+          ]
+        },
+        {
+          "warna": "Broken White",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 11700
+            },
+            {
+              "min": 500,
+              "price": 9750
+            },
+            {
+              "min": 2000,
+              "price": 7800
+            }
+          ]
+        },
+        {
+          "warna": "Broken White",
+          "ukuran": "40 x 50 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 12600
+            },
+            {
+              "min": 500,
+              "price": 10500
+            },
+            {
+              "min": 2000,
+              "price": 8400
+            }
+          ]
+        },
+        {
+          "warna": "Broken White",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 15200
+            },
+            {
+              "min": 500,
+              "price": 12650
+            },
+            {
+              "min": 2000,
+              "price": 10150
+            }
+          ]
+        }
+      ]
+    },
+    "materialCard": true
+  },
+  {
+    "slug": "taslan",
+    "name": "Totebag Taslan",
+    "category": "taslan",
+    "categoryLabel": "Taslan",
+    "tagline": "Ringan, tahan air, dan tahan sobek",
+    "shortDesc": "Taslan putih yang ringan, tahan air, dan tahan sobek — cocok untuk totebag event outdoor maupun merchandise aktif.",
+    "longDesc": "Totebag Taslan terbuat dari bahan taslan putih yang ringan, tahan air, dan tahan sobek, menjadikannya pilihan tepat untuk event outdoor, olahraga, atau merchandise yang butuh daya tahan ekstra tanpa menambah berat bawaan.",
+    "moq": 10,
+    "image": "produk-taslan.svg",
+    "gallery": [
+      "produk-taslan.svg",
+      "produk-taslan-2.svg",
+      "produk-taslan-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Taslan",
+      "Ukuran": "32 x 36 x 8 cm (custom)",
+      "Warna": "Putih",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 19000
+      },
+      {
+        "min": 500,
+        "price": 16000
+      },
+      {
+        "min": 2000,
+        "price": 13500
+      }
+    ],
+    "customize": [
+      "Warna putih bersih, tahan air",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Ringan & tahan sobek untuk kebutuhan outdoor"
+    ],
+    "featured": true,
+    "materialCard": true
+  },
+  {
+    "slug": "kanvas-denim",
+    "name": "Totebag Kanvas Denim",
+    "category": "kanvas-denim",
+    "categoryLabel": "Kanvas Denim",
+    "tagline": "Tampilan denim yang tahan lama untuk merchandise premium",
+    "shortDesc": "Kanvas Denim tersedia dalam Broken White dan Navy, menghadirkan tampilan premium yang tahan lama untuk merchandise korporat kelas atas.",
+    "longDesc": "Totebag Kanvas Denim menghadirkan tampilan denim yang kokoh dan tahan lama, tersedia dalam dua pilihan warna — Broken White dan Navy. Cocok untuk merchandise korporat kelas atas atau totebag edisi terbatas yang ingin tampil beda dari kanvas polos biasa.",
+    "moq": 10,
+    "image": "produk-kanvas-denim.svg",
+    "gallery": [
+      "produk-kanvas-denim.svg",
+      "produk-kanvas-denim-2.svg",
+      "produk-kanvas-denim-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas Denim",
+      "Ukuran": "36 x 42 x 12 cm (custom)",
+      "Warna": "Broken White, Navy",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 48000
+      },
+      {
+        "min": 200,
+        "price": 42000
+      },
+      {
+        "min": 500,
+        "price": 36000
+      }
+    ],
+    "customize": [
+      "Pilihan warna: Broken White, Navy",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Tampilan denim yang tahan lama"
+    ],
+    "featured": true,
+    "materialCard": true
+  },
+  {
+    "slug": "totebag-sleting",
+    "name": "Totebag Sleting",
+    "category": "totebag-sleting",
+    "categoryLabel": "Totebag Sleting",
+    "tagline": "Totebag dengan ritsleting untuk keamanan barang ekstra",
+    "shortDesc": "Totebag dilengkapi ritsleting penuh untuk menjaga isi tas tetap aman, tersedia dalam bahan Kanvas (Putih, Hitam, Navy) maupun Blacu (Broken White).",
+    "longDesc": "Totebag Sleting menghadirkan kepraktisan totebag biasa dengan tambahan ritsleting di bagian atas, sehingga barang bawaan lebih aman dan rapi — cocok untuk goodie bag seminar, merchandise korporat, atau totebag harian yang perlu ekstra keamanan. Tersedia dalam pilihan bahan Kanvas (Putih, Hitam, Navy) maupun Blacu (Broken White), dengan berbagai pilihan ukuran per bahan.",
+    "moq": 10,
+    "image": "produk-totebag-sleting.svg",
+    "gallery": [
+      "produk-totebag-sleting.svg",
+      "produk-totebag-sleting-2.svg",
+      "produk-totebag-sleting-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas & Blacu (dengan ritsleting)",
+      "Ukuran": "35 x 30 cm",
+      "Warna": "Putih (Kanvas), Hitam (Kanvas), Navy (Kanvas), Broken White (Blacu)",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 17400
+      },
+      {
+        "min": 100,
+        "price": 14800
+      },
+      {
+        "min": 500,
+        "price": 12250
+      }
+    ],
+    "customize": [
+      "Pilihan bahan & warna: Kanvas Putih/Hitam/Navy, atau Blacu Broken White",
+      "Dilengkapi ritsleting penuh untuk keamanan ekstra",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)"
+    ],
+    "featured": true,
+    "materialCard": true,
+    "variants": {
+      "colors": [
+        "Putih (Kanvas)",
+        "Hitam (Kanvas)",
+        "Navy (Kanvas)",
+        "Broken White (Blacu)"
+      ],
+      "options": [
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "35 x 30 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17400
+            },
+            {
+              "min": 100,
+              "price": 14800
+            },
+            {
+              "min": 500,
+              "price": 12250
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 18500
+            },
+            {
+              "min": 100,
+              "price": 15750
+            },
+            {
+              "min": 500,
+              "price": 13000
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 20400
+            },
+            {
+              "min": 100,
+              "price": 17400
+            },
+            {
+              "min": 500,
+              "price": 14350
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 21500
+            },
+            {
+              "min": 100,
+              "price": 18300
+            },
+            {
+              "min": 500,
+              "price": 15150
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "40 x 50 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 24500
+            },
+            {
+              "min": 100,
+              "price": 20850
+            },
+            {
+              "min": 500,
+              "price": 17250
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 25500
+            },
+            {
+              "min": 100,
+              "price": 21700
+            },
+            {
+              "min": 500,
+              "price": 17950
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 21500
+            },
+            {
+              "min": 100,
+              "price": 18300
+            },
+            {
+              "min": 500,
+              "price": 15150
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 24200
+            },
+            {
+              "min": 100,
+              "price": 20600
+            },
+            {
+              "min": 500,
+              "price": 17050
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 27700
+            },
+            {
+              "min": 100,
+              "price": 23600
+            },
+            {
+              "min": 500,
+              "price": 19500
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 29700
+            },
+            {
+              "min": 100,
+              "price": 25300
+            },
+            {
+              "min": 500,
+              "price": 20900
+            }
+          ]
+        },
+        {
+          "warna": "Navy (Kanvas)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 21500
+            },
+            {
+              "min": 100,
+              "price": 18300
+            },
+            {
+              "min": 500,
+              "price": 15150
+            }
+          ]
+        },
+        {
+          "warna": "Navy (Kanvas)",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 24200
+            },
+            {
+              "min": 100,
+              "price": 20600
+            },
+            {
+              "min": 500,
+              "price": 17050
+            }
+          ]
+        },
+        {
+          "warna": "Navy (Kanvas)",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 27700
+            },
+            {
+              "min": 100,
+              "price": 23600
+            },
+            {
+              "min": 500,
+              "price": 19500
+            }
+          ]
+        },
+        {
+          "warna": "Navy (Kanvas)",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 29700
+            },
+            {
+              "min": 100,
+              "price": 25300
+            },
+            {
+              "min": 500,
+              "price": 20900
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 12450
+            },
+            {
+              "min": 500,
+              "price": 10400
+            },
+            {
+              "min": 2000,
+              "price": 8300
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 14300
+            },
+            {
+              "min": 500,
+              "price": 11900
+            },
+            {
+              "min": 2000,
+              "price": 9550
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "30 x 40 x 10 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17500
+            },
+            {
+              "min": 500,
+              "price": 14600
+            },
+            {
+              "min": 2000,
+              "price": 11650
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "27 x 38 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 12200
+            },
+            {
+              "min": 500,
+              "price": 10150
+            },
+            {
+              "min": 2000,
+              "price": 8150
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "35 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 13700
+            },
+            {
+              "min": 500,
+              "price": 11400
+            },
+            {
+              "min": 2000,
+              "price": 9150
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "40 x 50 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 15500
+            },
+            {
+              "min": 500,
+              "price": 12900
+            },
+            {
+              "min": 2000,
+              "price": 10350
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pouch",
+    "name": "Pouch Serbaguna",
+    "category": "pouch",
+    "categoryLabel": "Pouch",
+    "tagline": "Pouch serbaguna untuk aksesori, alat tulis, atau merchandise kecil",
+    "shortDesc": "Pouch kanvas serbaguna, tersedia dalam bahan Kanvas Putih dan Blacu Broken White — pas untuk merchandise tambahan atau kebutuhan pribadi.",
+    "longDesc": "Pouch Serbaguna cocok untuk menyimpan aksesori, alat tulis, kosmetik, atau sebagai merchandise tambahan pelengkap goodie bag. Tersedia dalam bahan Kanvas Putih maupun Blacu Broken White, dengan tiga pilihan ukuran dari yang paling ringkas hingga paling lega.",
+    "moq": 10,
+    "image": "produk-pouch.svg",
+    "gallery": [
+      "produk-pouch.svg",
+      "produk-pouch-2.svg",
+      "produk-pouch-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas & Blacu",
+      "Ukuran": "10 x 15 cm",
+      "Warna": "Putih (Kanvas), Broken White (Blacu)",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 8100
+      },
+      {
+        "min": 100,
+        "price": 6900
+      },
+      {
+        "min": 500,
+        "price": 5700
+      }
+    ],
+    "customize": [
+      "Pilihan bahan & warna: Kanvas Putih atau Blacu Broken White",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Cocok sebagai pelengkap goodie bag atau merchandise kecil"
+    ],
+    "featured": false,
+    "materialCard": false,
+    "variants": {
+      "colors": [
+        "Putih (Kanvas)",
+        "Broken White (Blacu)"
+      ],
+      "options": [
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "10 x 15 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 8100
+            },
+            {
+              "min": 100,
+              "price": 6900
+            },
+            {
+              "min": 500,
+              "price": 5700
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "15 x 20 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 9400
+            },
+            {
+              "min": 100,
+              "price": 8000
+            },
+            {
+              "min": 500,
+              "price": 6600
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "20 x 25 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 10700
+            },
+            {
+              "min": 100,
+              "price": 9100
+            },
+            {
+              "min": 500,
+              "price": 7550
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "10 x 15 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 7900
+            },
+            {
+              "min": 500,
+              "price": 6600
+            },
+            {
+              "min": 2000,
+              "price": 5250
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "15 x 20 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 8300
+            },
+            {
+              "min": 500,
+              "price": 6900
+            },
+            {
+              "min": 2000,
+              "price": 5550
+            }
+          ]
+        },
+        {
+          "warna": "Broken White (Blacu)",
+          "ukuran": "20 x 25 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 8650
+            },
+            {
+              "min": 500,
+              "price": 7200
+            },
+            {
+              "min": 2000,
+              "price": 5750
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "tempat-pinsil",
+    "name": "Tempat Pinsil",
+    "category": "tempat-pinsil",
+    "categoryLabel": "Tempat Pinsil",
+    "tagline": "Tempat pinsil kanvas untuk merchandise sekolah & kantor",
+    "shortDesc": "Tempat pinsil kanvas dengan ritsleting, tersedia dalam warna Putih dan Hitam — pilihan tepat untuk merchandise sekolah, kampus, maupun kantor.",
+    "longDesc": "Tempat Pinsil kanvas berukuran ringkas dan dilengkapi ritsleting, cocok sebagai merchandise untuk acara sekolah, kampus, seminar, atau kantor. Tersedia dalam warna Putih dan Hitam dengan satu ukuran standar yang pas untuk alat tulis sehari-hari.",
+    "moq": 10,
+    "image": "produk-tempat-pinsil.svg",
+    "gallery": [
+      "produk-tempat-pinsil.svg",
+      "produk-tempat-pinsil-2.svg",
+      "produk-tempat-pinsil-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas",
+      "Ukuran": "12 x 22 cm",
+      "Warna": "Putih",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 10700
+      },
+      {
+        "min": 100,
+        "price": 9100
+      },
+      {
+        "min": 500,
+        "price": 7550
+      }
+    ],
+    "customize": [
+      "Pilihan warna: Putih, Hitam",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Cocok untuk merchandise sekolah, kampus, atau kantor"
+    ],
+    "featured": false,
+    "materialCard": false,
+    "variants": {
+      "colors": [
+        "Putih",
+        "Hitam"
+      ],
+      "options": [
+        {
+          "warna": "Putih",
+          "ukuran": "12 x 22 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 10700
+            },
+            {
+              "min": 100,
+              "price": 9100
+            },
+            {
+              "min": 500,
+              "price": 7550
+            }
+          ]
+        },
+        {
+          "warna": "Hitam",
+          "ukuran": "12 x 22 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 12800
+            },
+            {
+              "min": 100,
+              "price": 10900
+            },
+            {
+              "min": 500,
+              "price": 9000
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "gendong",
+    "name": "Tas Selempang Gendong",
+    "category": "gendong",
+    "categoryLabel": "Gendong",
+    "tagline": "Tas selempang praktis untuk dipakai sehari-hari",
+    "shortDesc": "Tas selempang (gendong) kanvas & blacu, tersedia dalam Putih, Hitam, dan Blacu — praktis dipakai sehari-hari atau sebagai merchandise aktif.",
+    "longDesc": "Tas Selempang Gendong dirancang untuk kepraktisan sehari-hari — pas untuk merchandise komunitas, event outdoor, atau souvenir yang lebih fungsional dibanding totebag biasa. Tersedia dalam Kanvas Putih, Kanvas Hitam, dan Blacu, dengan beberapa pilihan ukuran tergantung bahan.",
+    "moq": 10,
+    "image": "produk-gendong.svg",
+    "gallery": [
+      "produk-gendong.svg",
+      "produk-gendong-2.svg",
+      "produk-gendong-3.svg"
+    ],
+    "specs": {
+      "Bahan": "Kanvas & Blacu",
+      "Ukuran": "30 x 40 cm",
+      "Warna": "Putih (Kanvas), Hitam (Kanvas), Blacu",
+      "Metode Print": "Sublim, DTF"
+    },
+    "priceTiers": [
+      {
+        "min": 10,
+        "price": 17800
+      },
+      {
+        "min": 100,
+        "price": 15150
+      },
+      {
+        "min": 500,
+        "price": 12550
+      }
+    ],
+    "customize": [
+      "Pilihan bahan & warna: Kanvas Putih/Hitam, atau Blacu",
+      "Cetak Sublim full color",
+      "Cetak DTF (Direct to Film)",
+      "Desain selempang praktis untuk pemakaian aktif"
+    ],
+    "featured": false,
+    "materialCard": false,
+    "variants": {
+      "colors": [
+        "Putih (Kanvas)",
+        "Hitam (Kanvas)",
+        "Blacu"
+      ],
+      "options": [
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17800
+            },
+            {
+              "min": 100,
+              "price": 15150
+            },
+            {
+              "min": 500,
+              "price": 12550
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "25 x 35 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 15700
+            },
+            {
+              "min": 100,
+              "price": 13350
+            },
+            {
+              "min": 500,
+              "price": 11050
+            }
+          ]
+        },
+        {
+          "warna": "Putih (Kanvas)",
+          "ukuran": "35 x 45 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 20950
+            },
+            {
+              "min": 100,
+              "price": 17850
+            },
+            {
+              "min": 500,
+              "price": 14750
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "25 x 35 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 17500
+            },
+            {
+              "min": 100,
+              "price": 14900
+            },
+            {
+              "min": 500,
+              "price": 12300
+            }
+          ]
+        },
+        {
+          "warna": "Hitam (Kanvas)",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 20000
+            },
+            {
+              "min": 100,
+              "price": 17050
+            },
+            {
+              "min": 500,
+              "price": 14050
+            }
+          ]
+        },
+        {
+          "warna": "Blacu",
+          "ukuran": "30 x 40 cm",
+          "priceTiers": [
+            {
+              "min": 10,
+              "price": 13800
+            },
+            {
+              "min": 500,
+              "price": 11500
+            },
+            {
+              "min": 2000,
+              "price": 9200
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

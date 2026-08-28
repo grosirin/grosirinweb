@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" width="900" height="720" role="img" aria-label="Ilustrasi stok totebag grosir.in">
+<defs>
+  <radialGradient id="heroblob1" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#b85c4e" stop-opacity="0.14"/><stop offset="100%" stop-color="#b85c4e" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="heroblob2" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#7c9885" stop-opacity="0.14"/><stop offset="100%" stop-color="#7c9885" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="900" height="720" fill="#fffef9"/>
+<circle cx="640" cy="200" r="260" fill="url(#heroblob1)"/>
+<circle cx="220" cy="560" r="240" fill="url(#heroblob2)"/>
+
+<g transform="translate(330 470) rotate(-10) scale(0.72)">
+      <path d="M-70 -95C-70 -145 70 -145 70 -95" fill="none" stroke="#1a1a1a" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <rect x="-110" y="-100" width="220" height="30" rx="7" fill="#d4a574" opacity="0.9"/>
+      <rect x="-125" y="-78" width="250" height="230" rx="12" fill="#efe3cd" stroke="#1a1a1a" stroke-width="2.4"/>
+      <line x1="-95" y1="-78" x2="-95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+      <line x1="95" y1="-78" x2="95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+    </g>
+<g transform="translate(560 480) rotate(7) scale(0.78)">
+      <path d="M-70 -95C-70 -145 70 -145 70 -95" fill="none" stroke="#1a1a1a" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <rect x="-110" y="-100" width="220" height="30" rx="7" fill="#b85c4e" opacity="0.9"/>
+      <rect x="-125" y="-78" width="250" height="230" rx="12" fill="#f0d9d2" stroke="#1a1a1a" stroke-width="2.4"/>
+      <line x1="-95" y1="-78" x2="-95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+      <line x1="95" y1="-78" x2="95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+    </g>
+<g transform="translate(450 380) rotate(-2) scale(0.95)">
+      <path d="M-70 -95C-70 -145 70 -145 70 -95" fill="none" stroke="#1a1a1a" stroke-width="9" stroke-linecap="round" opacity="0.85"/>
+      <rect x="-110" y="-100" width="220" height="30" rx="7" fill="#7c9885" opacity="0.9"/>
+      <rect x="-125" y="-78" width="250" height="230" rx="12" fill="#e4ece5" stroke="#1a1a1a" stroke-width="2.4"/>
+      <line x1="-95" y1="-78" x2="-95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+      <line x1="95" y1="-78" x2="95" y2="140" stroke="#1a1a1a" stroke-width="1.4" opacity="0.18"/>
+    </g>
+
+<g transform="translate(450 660)" opacity="0.6">
+  <path d="M-16 -4 C -16 -12 16 -12 16 -4" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round"/>
+  <rect x="-20" y="-4" width="40" height="30" rx="4" fill="none" stroke="#1a1a1a" stroke-width="3"/>
+  <text x="34" y="18" font-family="Georgia, serif" font-size="18" fill="#1a1a1a">grosir.in</text>
+</g>
+</svg>
