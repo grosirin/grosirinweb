@@ -8,7 +8,7 @@
 
   /* ---- CONFIG: update these for the real store ---- */
   window.GROSIRIN_CONFIG = {
-    whatsappNumber: "6281234567890", // TODO: ganti dengan nomor WhatsApp bisnis Anda (format 62xxxxxxxxxx)
+    whatsappNumber: "6287714070404", // nomor WhatsApp bisnis grosir.in (format 62xxxxxxxxxx)
     brandName: "grosir.in"
   };
 
