@@ -208,16 +208,18 @@ html.has-cursor .scroll-row{cursor:none}
 .stat-num span{color:var(--ochre)}
 .stat-lbl{font-size:13px;color:rgba(255,255,255,.5);font-weight:450;line-height:1.5;letter-spacing:.02em}
 
-/* ---------- testimonial placeholders ---------- */
+/* ---------- testimonials ----------
+   Live styling, kept ready on purpose. The section renders only when
+   TESTIMONIALS in build.py has real entries, so this block looks unused until
+   the first genuine quote lands. Do not delete it as dead placeholder code. */
 .testi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.testi-card{padding:30px 28px;background:white;border:1px dashed rgba(184,92,78,.3);border-radius:10px;position:relative}
+.testi-card{padding:30px 28px;background:white;border:1px solid rgba(184,92,78,.3);border-radius:10px;position:relative}
 .testi-card .quote-mark{font-family:'Fraunces',serif;font-size:40px;color:var(--rust);opacity:.15;line-height:1;margin-bottom:6px}
 .testi-card p{font-size:14px;color:var(--text-secondary);line-height:1.7;margin-bottom:18px;font-style:italic}
 .testi-who{display:flex;align-items:center;gap:12px}
 .testi-avatar{width:38px;height:38px;border-radius:50%;background:var(--sand);border:.5px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--text-tertiary);font-size:14px}
 .testi-name{font-size:13px;font-weight:600}
 .testi-role{font-size:11px;color:var(--text-tertiary)}
-.testi-note{margin-top:36px;font-size:12px;color:var(--text-tertiary);text-align:center}
 
 /* ---------- CTA ---------- */
 .cta-section{padding:130px 32px;text-align:center;position:relative;overflow:hidden}
@@ -294,8 +296,7 @@ html.has-cursor .scroll-row{cursor:none}
 .form-input:focus,.form-textarea:focus,.form-select:focus{border-color:rgba(184,92,78,.35);background:white;box-shadow:0 0 0 3px rgba(184,92,78,.05)}
 .form-input::placeholder,.form-textarea::placeholder{color:var(--text-tertiary);opacity:.6}
 .info-card{padding:20px;background:linear-gradient(135deg,rgba(124,152,133,.05),rgba(124,152,133,.02));border:.5px solid rgba(124,152,133,.2);border-radius:8px;margin-bottom:22px}
-.info-status{font-size:13px;font-weight:500;color:var(--sage);margin-bottom:8px;display:flex;align-items:center;gap:8px}
-.info-dot{width:8px;height:8px;background:var(--sage);border-radius:50%;display:inline-block;animation:pulseDot 2s ease-in-out infinite}
+.info-status{font-size:13px;font-weight:500;color:var(--text-secondary);margin-bottom:8px;line-height:1.5}
 .info-text{font-size:13px;color:var(--text-secondary);line-height:1.6}
 .contact-sidebar h3{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.15em;color:var(--rust);opacity:.75;margin-bottom:16px;margin-top:32px}
 .contact-sidebar h3:first-child{margin-top:0}
