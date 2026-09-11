@@ -200,11 +200,11 @@ html.has-cursor .scroll-row{cursor:none}
 /* ---------- stats bar ---------- */
 .stats-bar{padding:76px 32px;background:var(--charcoal);position:relative;overflow:hidden}
 .stats-bar::before{content:'';position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent,transparent 2px,rgba(255,255,255,.008) 2px,rgba(255,255,255,.008) 3px)}
-.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;position:relative;z-index:1}
-.stat{text-align:center;padding:28px 20px;position:relative}
+.stats-inner{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(5,1fr);gap:20px;position:relative;z-index:1}
+.stat{text-align:center;padding:28px 12px;position:relative}
 .stat::after{content:'';position:absolute;top:50%;right:0;width:.5px;height:50%;transform:translateY(-50%);background:linear-gradient(180deg,transparent,rgba(255,255,255,.08),transparent)}
-.stat:last-child::after{display:none}
-.stat-num{font-family:'Fraunces',serif;font-size:48px;font-weight:300;color:white;letter-spacing:-.03em;line-height:1;margin-bottom:10px}
+.stat:nth-child(5n)::after,.stat:last-child::after{display:none}
+.stat-num{font-family:'Fraunces',serif;font-size:42px;font-weight:300;color:white;letter-spacing:-.03em;line-height:1;margin-bottom:10px}
 .stat-num span{color:var(--ochre)}
 .stat-lbl{font-size:13px;color:rgba(255,255,255,.5);font-weight:450;line-height:1.5;letter-spacing:.02em}
 
@@ -331,8 +331,9 @@ html.has-cursor .scroll-row{cursor:none}
   .cat-grid,.product-grid,.related-grid{grid-template-columns:repeat(2,1fr)}
   .process-grid{grid-template-columns:repeat(2,1fr)}
   .process-step{margin-top:0!important}
-  .stats-inner{grid-template-columns:repeat(2,1fr)}
-  .stat:nth-child(2)::after{display:none}
+  .stats-inner{grid-template-columns:repeat(2,1fr);gap:28px}
+  .stat:nth-child(2n)::after{display:none}
+  .stat:last-child:nth-child(odd){grid-column:1/-1}
   .testi-grid{grid-template-columns:1fr}
   .pd-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
   .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
@@ -349,6 +350,7 @@ html.has-cursor .scroll-row{cursor:none}
 @media(max-width:640px){
   .cat-grid,.product-grid,.related-grid,.process-grid,.testi-grid,.pd-specs,.capability-grid{grid-template-columns:1fr}
   .stats-inner{grid-template-columns:1fr 1fr}
+  .stat:last-child:nth-child(odd){grid-column:1/-1}
   .footer-grid{grid-template-columns:1fr}
   .cat-grid.scroll-row .cat-card{flex-basis:78vw}
   .product-grid.scroll-row .product-card{flex-basis:78vw}
