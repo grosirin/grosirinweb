@@ -283,13 +283,17 @@
 
     // Rebuild the Ukuran dropdown to only the sizes available for the
     // currently-selected Warna (different colors can have different size
-    // ranges, matching the vendor's real stock).
+    // ranges, matching the vendor's real stock), keeping the chosen size if
+    // the new colour has it.
     function refreshUkuranOptions() {
       if (!variants || !warnaSelect || !ukuranSelect) return;
       var opts = optionsForColor(warnaSelect.value);
+      var keep = ukuranSelect.value;
       ukuranSelect.innerHTML = opts.map(function (o) {
         return '<option value="' + o.ukuran + '">' + o.ukuran + '</option>';
       }).join("");
+      // Keep the chosen size when the new colour has it too.
+      if (opts.some(function (o) { return o.ukuran === keep; })) ukuranSelect.value = keep;
     }
 
     // Mirrors build.py's tier_rows_html(): a tier below the sablon minimum is

@@ -481,3 +481,50 @@ html.has-cursor .scroll-row{cursor:none}
   .article-grid{grid-template-columns:1fr;gap:22px}
   .article-products,.article-related{padding:44px 24px 0}
 }
+
+/* ---------- product page: deeper content (build.py product_details_html) ---------- */
+.pdx .uc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.pdx .uc-card{background:white;border:.5px solid rgba(232,231,227,.7);border-radius:14px;padding:24px 22px;display:flex;flex-direction:column;gap:10px}
+.pdx .uc-num{font-family:'Fraunces',serif;color:var(--rust);font-size:14px}
+.pdx .uc-card h3{font-family:'Fraunces',serif;font-weight:400;font-size:19px;line-height:1.3}
+.pdx .uc-card p{font-size:14px;color:var(--text-secondary);line-height:1.7;flex:1}
+.pdx .uc-card a,.pdx .faq-answer a,.pdx .cmp-more a{font-size:13.5px;font-weight:600;color:var(--rust);text-decoration:none}
+.pdx .uc-card a:hover,.pdx .faq-answer a:hover,.pdx .cmp-more a:hover{text-decoration:underline}
+.pdx .article-table-wrap{background:white;margin:0}
+.pdx .sz-table .sz-tag{display:block;font-size:11px;font-weight:500;color:var(--sage);margin-top:2px}
+.pdx .sz-table .sz-colors{display:block;font-size:12.5px;color:var(--text-tertiary);margin-top:4px}
+.pdx .sz-table .num{text-align:right;white-space:nowrap}
+.pdx .sz-table td.num{font-family:'Fraunces',serif;color:var(--rust)}
+.pdx .opt-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:8px}
+.pdx .opt-card{position:relative;background:white;border:.5px solid rgba(232,231,227,.7);border-radius:14px;padding:26px 24px}
+.pdx .opt-hl{border:1.5px solid var(--rust)}
+.pdx .opt-badge{position:absolute;top:-11px;left:22px;background:var(--rust);color:white;font-size:11px;font-weight:600;padding:3px 10px;border-radius:10px}
+.pdx .opt-price{font-family:'Fraunces',serif;font-size:24px;color:var(--text-primary)}
+.pdx .opt-price small{font-size:13px;color:var(--text-tertiary)}
+.pdx .opt-price-text{font-size:20px}
+.pdx .opt-card h3{font-size:15px;font-weight:600;margin:6px 0 12px}
+.pdx .opt-card ul{list-style:none;display:flex;flex-direction:column;gap:8px}
+.pdx .opt-card li{display:flex;gap:8px;font-size:14px;color:var(--text-secondary);line-height:1.55}
+.pdx .opt-card li svg{color:var(--sage);flex-shrink:0;margin-top:3px}
+.pdx .ex-line{margin-top:26px;font-size:15px;line-height:1.7;color:var(--text-secondary);background:var(--sand);padding:14px 18px;border-radius:10px}
+.pdx .cmp{margin-top:56px}
+.pdx .cmp-title{font-family:'Fraunces',serif;font-weight:400;font-size:clamp(22px,2.6vw,28px);margin-bottom:22px}
+.pdx .cmp-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.pdx .cmp-card{margin:0;background:white;border:.5px solid rgba(232,231,227,.7);border-radius:14px;overflow:hidden}
+.pdx .cmp-media{aspect-ratio:3/2;background:var(--sand)}
+.pdx .cmp-media img{width:100%;height:100%;object-fit:cover;display:block}
+.pdx .cmp-ph{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;margin:14px;height:calc(100% - 28px);border:1.5px dashed rgba(124,152,133,.45);border-radius:10px;color:var(--text-tertiary);font-size:14px;text-align:center}
+.pdx .cmp-ph small{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.12em;color:var(--sage)}
+.pdx .cmp-card figcaption{padding:20px 22px 22px}
+.pdx .cmp-card h4{font-size:16px;font-weight:600;margin-bottom:12px}
+.pdx .cmp-card h4 span{font-weight:500;color:var(--rust);font-size:14px;margin-left:6px;white-space:nowrap}
+.pdx .cmp-card ul{padding-left:18px;display:flex;flex-direction:column;gap:7px}
+.pdx .cmp-card li{font-size:14px;color:var(--text-secondary);line-height:1.55}
+.pdx .cmp-more{margin-top:20px;font-size:14.5px;color:var(--text-secondary);line-height:1.7}
+.pdx .two-col{display:grid;grid-template-columns:1fr 1fr;gap:56px}
+.pdx .spec-table{width:100%;border-collapse:collapse}
+.pdx .spec-table th{text-align:left;font-size:11.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--text-tertiary);font-weight:600;padding:13px 16px 13px 0;vertical-align:top;width:34%;border-bottom:.5px solid var(--border)}
+.pdx .spec-table td{padding:12px 0;font-size:14.5px;line-height:1.55;border-bottom:.5px solid var(--border)}
+.pdx .faq-answer p{font-size:14.5px;color:var(--text-secondary);line-height:1.7}
+@media(max-width:1000px){.pdx .uc-grid{grid-template-columns:1fr 1fr}.pdx .two-col{grid-template-columns:1fr;gap:40px}}
+@media(max-width:640px){.pdx .uc-grid,.pdx .cmp-grid{grid-template-columns:1fr}}
