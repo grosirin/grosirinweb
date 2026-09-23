@@ -5,6 +5,15 @@
    organic blob shapes, subtle grain, custom cursor, soft reveals.
    ============================================================ */
 
+/* Fonts are self-hosted (assets/fonts/, SIL OFL — see OFL.txt there) rather
+   than pulled from Google Fonts: two fewer origins to connect to before the
+   first paint, and no third-party request on any page. Latin subset only —
+   everything the site writes in Indonesian is covered. Both are variable
+   fonts, so one file carries every weight the stylesheet asks for. */
+@font-face{font-family:'Fraunces';font-style:normal;font-weight:300 600;font-display:swap;src:url(../fonts/fraunces-latin.woff2) format('woff2')}
+@font-face{font-family:'Fraunces';font-style:italic;font-weight:300 600;font-display:swap;src:url(../fonts/fraunces-italic-latin.woff2) format('woff2')}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400 700;font-display:swap;src:url(../fonts/inter-latin.woff2) format('woff2')}
+
 :root{
   --charcoal:#1a1a1a;
   --cream:#fffef9;
@@ -253,6 +262,9 @@ html.has-cursor .scroll-row{cursor:none}
 .tier-table{width:100%;border-collapse:collapse;border:.5px solid rgba(232,231,227,.6);border-radius:8px;overflow:hidden}
 .tier-table th{background:rgba(247,246,243,.7);font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--text-tertiary);padding:10px 14px;text-align:left;font-weight:600}
 .tier-table td{padding:11px 14px;font-size:14px;border-top:.5px solid rgba(232,231,227,.4)}
+.tier-note{display:inline-block;margin-left:6px;padding:1px 7px;font-size:10.5px;font-weight:600;letter-spacing:.04em;color:var(--sage);background:rgba(124,152,133,.12);border-radius:10px;vertical-align:1px}
+.pd-print-note{font-size:13px;color:var(--text-secondary);line-height:1.65;margin-top:12px}
+.pd-sablon{margin:-8px 0 22px}
 .tier-table td.price{font-family:'Fraunces',serif;color:var(--rust);font-weight:500}
 .qty-box{display:flex;align-items:center;gap:14px;margin-bottom:24px}
 .qty-stepper{display:flex;align-items:center;border:.5px solid rgba(232,231,227,.7);border-radius:30px;overflow:hidden}
@@ -323,8 +335,51 @@ html.has-cursor .scroll-row{cursor:none}
 .footer-bottom{border-top:.5px solid rgba(255,255,255,.08);padding:22px 32px;text-align:center;font-size:12.5px;max-width:1200px;margin:0 auto}
 
 /* ---------- misc ---------- */
+/* ---------- side rail: quick contacts + polos tab (left edge) ---------- */
+.side-rail{position:fixed;left:16px;top:50%;transform:translateY(-50%);z-index:900;display:flex;flex-direction:column;align-items:center;width:48px;padding-top:8px;background:var(--charcoal);border-radius:26px;box-shadow:0 12px 32px rgba(26,26,26,.18);overflow:hidden}
+.side-rail .sr-icon{display:flex;align-items:center;justify-content:center;width:48px;height:44px;color:rgba(255,255,255,.85);transition:color .25s,transform .25s cubic-bezier(.23,1,.32,1)}
+.side-rail .sr-icon:hover,.side-rail .sr-icon:focus-visible{color:#fff;transform:scale(1.12)}
+.side-rail .sr-tab{display:flex;align-items:center;justify-content:center;width:100%;margin-top:8px;padding:18px 0;border-top:1px solid rgba(255,255,255,.14);background:var(--rust);color:#fff;text-decoration:none;font-size:11.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;transition:background .25s}
+.side-rail .sr-tab span{writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
+.side-rail .sr-tab:hover,.side-rail .sr-tab:focus-visible{background:#a04e41}
+@media(max-width:1343px){.side-rail{display:none}} /* below this the page gutter is narrower than the rail */
+@media print{.side-rail{display:none}}
 .wa-float{position:fixed;bottom:24px;right:24px;width:56px;height:56px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 24px rgba(37,211,102,.35);z-index:900;transition:transform .3s cubic-bezier(.23,1,.32,1);text-decoration:none}
 .wa-float:hover{transform:scale(1.08)}
+/* WhatsApp widget card — built by main.js; without JS the button is a plain wa.me link */
+.wa-card{position:fixed;right:24px;bottom:92px;width:320px;max-width:calc(100vw - 32px);background:var(--cream);border:1px solid var(--border);border-radius:16px;box-shadow:0 18px 48px rgba(26,26,26,.16),0 2px 8px rgba(26,26,26,.06);z-index:950;overflow:hidden;opacity:0;transform:translateY(8px) scale(.98);transform-origin:bottom right;transition:opacity .22s ease,transform .26s cubic-bezier(.23,1,.32,1)}
+.wa-card[hidden]{display:none}
+.wa-card.show{opacity:1;transform:none}
+.wa-card-head{position:relative;padding:18px 44px 14px 20px;background:var(--sand);border-bottom:1px solid var(--border)}
+.wa-card-title{font-family:'Fraunces',serif;font-size:19px;font-weight:500;letter-spacing:-.02em;color:var(--text-primary)}
+.wa-card-status{display:flex;align-items:flex-start;gap:7px;margin-top:4px;font-size:12.5px;line-height:1.4;color:var(--text-secondary)}
+.wa-dot{flex:none;width:8px;height:8px;margin-top:5px;border-radius:50%;background:#a0aec0}
+.wa-card.is-open .wa-dot{background:#25D366;box-shadow:0 0 0 3px rgba(37,211,102,.18)}
+.wa-card-close{position:absolute;top:12px;right:12px;width:30px;height:30px;border:none;background:none;border-radius:50%;font-size:22px;line-height:1;color:var(--text-tertiary)}
+.wa-card-close:hover{background:rgba(26,26,26,.06);color:var(--text-primary)}
+.wa-card-body{padding:16px 20px 6px;display:flex;flex-direction:column;gap:8px}
+.wa-bubble{background:#fff;border:1px solid var(--border);border-radius:4px 14px 14px 14px;padding:11px 13px;font-size:14px;line-height:1.5;color:var(--text-secondary);margin-bottom:4px}
+.wa-topic{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:11px 14px;border:1px solid var(--border);border-radius:10px;background:#fff;color:var(--text-primary);font-size:14px;font-weight:500;text-decoration:none;transition:border-color .2s,background .2s,transform .2s}
+.wa-topic::after{content:"→";color:var(--rust);transition:transform .2s}
+.wa-topic:hover,.wa-topic:focus-visible{border-color:var(--rust);background:#fffaf6}
+.wa-topic:hover::after{transform:translateX(3px)}
+.wa-topic:focus-visible,.wa-card-close:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.wa-card-foot{padding:10px 20px 16px;font-size:12px;color:var(--text-tertiary)}
+@media(max-width:640px){.wa-card{right:16px;bottom:88px}}
+@media(prefers-reduced-motion:reduce){.wa-card,.wa-topic,.wa-topic::after{transition:none}}
+.pd-from{font-size:14px;color:var(--text-secondary);margin:-6px 0 18px}
+.pd-from strong{font-family:'Fraunces',serif;font-size:18px;font-weight:500;color:var(--rust)}
+.pd-from span{color:var(--text-tertiary);font-size:13px}
+.pd-note{font-size:13.5px;color:var(--text-secondary);line-height:1.7;margin:-14px 0 28px;padding:12px 16px;background:var(--sand);border-radius:10px}
+
+/* ---------- homepage: two-column text blocks (polos, area layanan) ---------- */
+.split{display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center}
+.prose p{font-size:16px;color:var(--text-secondary);line-height:1.8;margin-bottom:18px;max-width:640px}
+.prose a{color:var(--rust);text-decoration:underline;text-decoration-thickness:.5px;text-underline-offset:3px}
+.split-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+.check-list{list-style:none;display:flex;flex-direction:column;gap:14px;padding:28px;background:white;border:.5px solid rgba(232,231,227,.7);border-radius:14px}
+.check-list li{display:flex;gap:12px;align-items:flex-start;font-size:15px;line-height:1.6;color:var(--text-secondary)}
+.check-list svg{flex-shrink:0;margin-top:4px;color:var(--sage)}
 .visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 
 /* ---------- responsive ---------- */
@@ -337,6 +392,7 @@ html.has-cursor .scroll-row{cursor:none}
   .stat:last-child:nth-child(odd){grid-column:1/-1}
   .testi-grid{grid-template-columns:1fr}
   .pd-grid,.about-grid,.contact-grid{grid-template-columns:1fr;gap:40px}
+  .split{grid-template-columns:1fr;gap:36px}
   .footer-grid{grid-template-columns:1fr 1fr;gap:36px}
 }
 @media(max-width:900px){
@@ -409,10 +465,11 @@ html.has-cursor .scroll-row{cursor:none}
 .faq-item{border-bottom:.5px solid var(--border)}
 .faq-item summary{cursor:pointer;padding:18px 30px 18px 0;font-size:15.5px;font-weight:500;position:relative;list-style:none;line-height:1.5}
 .faq-item summary::-webkit-details-marker{display:none}
-.faq-item summary::after{content:'+';position:absolute;right:4px;top:16px;font-size:20px;font-weight:300;color:var(--rust);transition:transform .3s}
+.faq-item summary::after{content:'+';position:absolute;right:4px;top:16px;font-size:20px;font-weight:300;color:var(--rust);transition:transform .38s cubic-bezier(.23,1,.32,1)}
 .faq-item[open] summary::after{transform:rotate(45deg)}
-.faq-answer{padding:0 0 20px}
-.faq-answer p{font-size:15px;margin:0}
+.faq-item.closing summary::after{transform:rotate(0)}
+.faq-answer{padding:0}
+.faq-answer p{font-size:15px;margin:0;padding-bottom:20px}
 
 /* related blocks */
 .article-products,.article-related{max-width:1200px;margin:0 auto;padding:56px 32px 0}
