@@ -194,17 +194,20 @@
       });
     });
     setupDetailsFaq();
+    openHashDetails();
+    window.addEventListener("hashchange", openHashDetails);
   }
 
-  /* Article FAQs are native <details> — they open and close without any
-     JavaScript. This only adds the slide: the answer's height (and opacity)
-     animates open and shut instead of jumping. Reduced-motion users, and
-     browsers without the Web Animations API, keep the instant native toggle. */
+  /* Article FAQs and the price list's product rows are native <details> —
+     they open and close without any JavaScript. This only adds the slide:
+     the body's height (and opacity) animates open and shut instead of
+     jumping. Reduced-motion users, and browsers without the Web Animations
+     API, keep the instant native toggle. */
   function setupDetailsFaq() {
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    document.querySelectorAll("details.faq-item").forEach(function (item) {
+    document.querySelectorAll("details.faq-item, details.pl-acc").forEach(function (item) {
       var summary = item.querySelector("summary");
-      var body = item.querySelector(".faq-answer");
+      var body = item.querySelector(".faq-answer, .pl-acc-body");
       if (!summary || !body || reduce || !body.animate) return;
       var anim = null;
       summary.addEventListener("click", function (e) {
@@ -229,6 +232,17 @@
         };
       });
     });
+  }
+
+  /* A link to a collapsed row (daftar-harga.html#blacu) opens it, so the
+     visitor lands on the prices rather than on a closed heading. */
+  function openHashDetails() {
+    var id = location.hash ? decodeURIComponent(location.hash.slice(1)) : "";
+    var el = id && document.getElementById(id);
+    var d = el && (el.tagName === "DETAILS" ? el : el.closest("details"));
+    if (!d || d.open) return;
+    d.open = true;
+    el.scrollIntoView();
   }
 
   /* ---------------- product quantity + WhatsApp quote ---------------- */
