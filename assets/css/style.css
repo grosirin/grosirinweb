@@ -557,6 +557,11 @@ html.has-cursor .scroll-row{cursor:none}
 .pl .pl-bulk{display:flex;justify-content:space-between;align-items:center;gap:20px 32px;flex-wrap:wrap;background:white;border:1.5px solid var(--rust);border-radius:14px;padding:26px 28px;margin-bottom:72px}
 .pl .pl-bulk h2{font-family:'Fraunces',serif;font-weight:400;font-size:24px;margin-bottom:6px}
 .pl .pl-bulk p{font-size:14.5px;color:var(--text-secondary);line-height:1.7;max-width:620px}
+.pl-notice{margin-top:22px;max-width:720px;padding:14px 18px;background:rgba(184,92,78,.07);border-left:3px solid var(--rust);border-radius:0 10px 10px 0;font-size:14.5px;line-height:1.65;color:var(--text-secondary)}
+.pl-notice strong{color:var(--text-primary)}
+.pl-notice a{color:var(--rust);font-weight:600;text-decoration:none}
+.pl-notice a:hover{text-decoration:underline}
+.pl .pl-polos{display:inline-block;margin-top:16px;padding:4px 12px;font-size:12.5px;font-weight:600;color:var(--rust);background:rgba(184,92,78,.08);border-radius:12px}
 .pl .pl-lead{font-size:14.5px;color:var(--text-secondary);line-height:1.7;max-width:760px}
 .pl .pl-acc-list{margin-top:24px;border-top:.5px solid var(--border)}
 .pl .pl-acc{border-bottom:.5px solid var(--border);scroll-margin-top:90px}
@@ -576,7 +581,12 @@ html.has-cursor .scroll-row{cursor:none}
 .pl .pl-box h4{font-family:'Fraunces',serif;font-weight:400;font-size:19px;margin-bottom:4px}
 .pl .pl-box p{font-size:14px;color:var(--text-secondary);line-height:1.6;max-width:480px}
 .pl .pl-box .btn-wa{flex-shrink:0;padding:12px 26px;font-size:14px}
-.pl #sablon{margin-top:56px}
+.pl #sablon{margin-top:0;scroll-margin-top:90px}
+.pl .pl-h2{margin-top:64px}
+.pl .pl-sablon-line{margin-top:10px;font-size:14px;color:var(--text-secondary);line-height:1.6}
+.pl .pl-matrix th a{color:var(--text-primary);text-decoration:none;border-bottom:1px solid rgba(184,92,78,.35)}
+.pl .pl-matrix td{font-size:14px;color:var(--text-secondary)}
+.pl .pl-matrix td.pl-no{color:var(--text-tertiary);font-style:italic}
 @media(max-width:640px){.pl .pl-acc summary{grid-template-columns:1fr;padding-right:40px}.pl .pl-acc-from{grid-column:1;grid-row:auto;margin-top:4px}.pl .pl-box{padding:18px}.pl .pl-box .btn-wa{width:100%;justify-content:center}}
 .pl .pl-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .pl .pl-step{background:white;border:.5px solid rgba(232,231,227,.7);border-radius:14px;padding:24px 22px}
