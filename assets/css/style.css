@@ -557,6 +557,11 @@ html.has-cursor .scroll-row{cursor:none}
 .pl .pl-bulk{display:flex;justify-content:space-between;align-items:center;gap:20px 32px;flex-wrap:wrap;background:white;border:1.5px solid var(--rust);border-radius:14px;padding:26px 28px;margin-bottom:72px}
 .pl .pl-bulk h2{font-family:'Fraunces',serif;font-weight:400;font-size:24px;margin-bottom:6px}
 .pl .pl-bulk p{font-size:14.5px;color:var(--text-secondary);line-height:1.7;max-width:620px}
+/* The price list's hero sits right above its first section: no double
+   padding between them (it left a ~170 px gap), and its text lines up with
+   the section content below (1264 = 1200 + the hero's own 2 x 32 px). */
+.pl-hero{max-width:1264px;padding-bottom:0}
+.pl-hero + .section.pl{padding-top:72px}
 .pl-notice{margin-top:22px;max-width:720px;padding:14px 18px;background:rgba(184,92,78,.07);border-left:3px solid var(--rust);border-radius:0 10px 10px 0;font-size:14.5px;line-height:1.65;color:var(--text-secondary)}
 .pl-notice strong{color:var(--text-primary)}
 .pl-notice a{color:var(--rust);font-weight:600;text-decoration:none}
