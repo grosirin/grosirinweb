@@ -604,3 +604,57 @@ html.has-cursor .scroll-row{cursor:none}
 @media(max-width:768px){.pl .pl-steps{grid-template-columns:1fr}.pl .pl-table .pl-fits{display:none}}
 @media(max-width:640px){.pl .pl-table{font-size:13px}.pl .pl-table th,.pl .pl-table td{padding:10px 5px}.pl .pl-table tr>:first-child{padding-left:12px}.pl .pl-table tr>:last-child{padding-right:12px}.pl .pl-table thead th{font-size:10px;letter-spacing:.06em}.pl .sz-tag{font-size:10.5px}.pl .pl-bulk{padding:22px 20px}}
 @media(max-width:360px){.pl .pl-table{font-size:12px}.pl .pl-table th,.pl .pl-table td{padding:9px 3px}.pl .pl-table tr>:first-child{padding-left:10px}.pl .pl-table tr>:last-child{padding-right:10px}}
+
+/* ---------- coba desain (logo mockup, coba-desain.html) ---------- */
+.pd-mockup{display:flex;flex-direction:column;gap:2px;margin:-14px 0 28px;padding:14px 18px;border:1px dashed var(--rust);border-radius:12px;text-decoration:none;color:var(--text-primary);background:rgba(184,92,78,.04);transition:background .3s}
+.pd-mockup:hover{background:rgba(184,92,78,.09)}
+.pd-mockup strong{font-family:'Fraunces',serif;font-weight:500;font-size:16px;color:var(--rust)}
+.pd-mockup span{font-size:13.5px;color:var(--text-secondary)}
+.md .md-bench{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,360px);gap:36px;align-items:start}
+.md .md-stage{display:flex;flex-direction:column;gap:12px;align-items:center;position:sticky;top:96px;min-width:0}
+.md #md-view{width:100%;max-width:460px;height:auto;max-height:78vh;border-radius:14px;touch-action:none;cursor:grab;display:block;background:var(--sand);box-shadow:0 1px 0 var(--border),0 24px 48px -28px rgba(26,26,26,.35)}
+.md #md-view.wide{max-width:100%}
+.md #md-view.dragging{cursor:grabbing}
+.md #md-view:focus-visible{outline:2px solid var(--rust);outline-offset:4px}
+.md .md-hint{font-size:13px;color:var(--text-tertiary);text-align:center;margin:0}
+.md .md-bag{font-size:14px;color:var(--text-secondary);text-align:center;margin:0}
+.md .md-bag a{color:var(--rust);text-decoration:none;font-weight:500}
+.md .md-panel{background:white;border:.5px solid rgba(232,231,227,.9);border-radius:16px;display:flex;flex-direction:column}
+.md .md-panel section{padding:20px 22px;display:flex;flex-direction:column;gap:12px;border-bottom:1px dashed var(--border)}
+.md .md-panel section:last-child{border-bottom:0}
+.md .md-panel h2{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.14em;color:var(--text-tertiary);margin:0}
+.md .md-file{display:block;text-align:center;padding:16px 12px;border:1.5px dashed var(--border);border-radius:12px;font-weight:500;font-size:15px;cursor:pointer;transition:border-color .3s}
+.md .md-file:hover,.md .md-file:focus-within{border-color:var(--rust)}
+.md .md-file input{position:absolute;opacity:0;width:1px;height:1px}
+.md .md-note{font-size:13px;color:var(--text-tertiary);line-height:1.6;margin:0}
+.md .md-note.err{color:var(--rust)}
+.md .md-check{display:flex;gap:9px;align-items:center;font-size:14px}
+.md .md-check input{accent-color:var(--rust);width:16px;height:16px}
+.md .md-row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.md .md-chip{font:inherit;font-size:13.5px;font-weight:500;padding:8px 14px;border-radius:30px;border:1px solid var(--border);background:transparent;color:var(--text-primary);cursor:pointer}
+.md .md-chip:hover{border-color:var(--charcoal)}
+.md .md-chip[aria-pressed="true"]{background:var(--charcoal);border-color:var(--charcoal);color:white}
+.md .md-chip:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.md .md-field{display:flex;flex-direction:column;gap:6px}
+.md .md-field label{display:flex;justify-content:space-between;font-size:13.5px;font-weight:500}
+.md .md-field output{color:var(--text-tertiary);font-variant-numeric:tabular-nums}
+.md .md-field input[type=range]{width:100%;accent-color:var(--rust)}
+.md .md-readout{font-size:12.5px;color:var(--text-tertiary);margin:0;font-variant-numeric:tabular-nums;line-height:1.6}
+.md input[type=color]{width:40px;height:34px;padding:2px;border:1px solid var(--border);border-radius:8px;background:transparent}
+.md .md-actions{display:flex;flex-direction:column;gap:10px}
+.md .md-actions .btn-primary,.md .md-actions .btn-secondary{justify-content:center;width:100%}
+.md .md-gallery{margin-top:72px}
+.md .md-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;margin-top:24px}
+.md .md-tile{display:flex;flex-direction:column;gap:8px;min-width:0}
+.md .md-pick{padding:0;border:2px solid transparent;border-radius:12px;overflow:hidden;background:var(--sand);aspect-ratio:3/4;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.md .md-pick canvas{width:100%;height:100%;object-fit:contain;display:block}
+.md .md-pick[aria-pressed="true"]{border-color:var(--rust)}
+.md .md-pick:focus-visible{outline:2px solid var(--rust);outline-offset:2px}
+.md .md-cap{display:flex;justify-content:space-between;align-items:flex-start;gap:8px;font-size:13px;color:var(--text-secondary)}
+.md .md-cap span{min-width:0;display:flex;flex-direction:column;line-height:1.35}
+.md .md-cap strong,.md .md-cap small{overflow-wrap:anywhere}
+.md .md-cap strong{font-weight:500;color:var(--text-primary)}
+.md .md-cap small{font-size:12px;color:var(--text-tertiary)}
+.md .md-cap button{font:inherit;font-size:12.5px;font-weight:500;padding:5px 11px;border-radius:20px;border:1px solid var(--border);background:transparent;cursor:pointer;flex:none}
+.md .md-cap button:hover{border-color:var(--charcoal)}
+@media(max-width:900px){.md .md-bench{grid-template-columns:minmax(0,1fr)}.md .md-stage{position:static}}
