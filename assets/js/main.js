@@ -266,6 +266,8 @@
     var moq = parseInt(box.getAttribute("data-moq") || "10", 10);
     var minQty = parseInt(box.getAttribute("data-min") || String(moq), 10);
     var sablonSelect = document.getElementById("pd-sablon-select");
+    // Penutup (open totebags): zipper or magnetic button, a flat price per pcs.
+    var closureSelect = document.getElementById("pd-closure-select");
 
     // Optional Warna/Ukuran variant pricing: {colors:[...], options:[{warna,ukuran,priceTiers}]}
     var variantsRaw = box.getAttribute("data-variants");
@@ -345,6 +347,13 @@
       if (sablonSelect.selectedOptions.length && sablonSelect.selectedOptions[0].disabled) sablonSelect.value = "";
     }
 
+    function closureOption() {
+      if (!closureSelect) return null;
+      var opt = closureSelect.options[closureSelect.selectedIndex];
+      return { price: parseInt(opt.getAttribute("data-price") || "0", 10),
+               label: opt.getAttribute("data-label") || opt.textContent };
+    }
+
     function currentMin() { return sablonOption() ? Math.max(moq, minQty) : minQty; }
 
     function priceFor(qty) {
@@ -363,12 +372,17 @@
       if (!typing) input.value = qty;
       input.min = min;
       var sablon = sablonOption();
+      var closure = closureOption();
       var base = priceFor(qty);
-      var unit = base + (sablon ? sablon.price : 0);
+      var extra = closure && closure.price ? closure.price : 0;
+      var unit = base + extra + (sablon ? sablon.price : 0);
       var total = unit * qty;
       if (priceOut) {
-        priceOut.textContent = sablon
-          ? formatIDR(base) + " + sablon " + formatIDR(sablon.price) + " = " + formatIDR(unit) + " / pcs"
+        var parts = [formatIDR(base)];
+        if (extra) parts.push(closure.label.toLowerCase() + " " + formatIDR(extra));
+        if (sablon) parts.push("sablon " + formatIDR(sablon.price));
+        priceOut.textContent = parts.length > 1
+          ? parts.join(" + ") + " = " + formatIDR(unit) + " / pcs"
           : formatIDR(unit) + " / pcs (polos)";
         if (sablon && (raw || 0) < moq) priceOut.textContent += " · sablon minimal " + moq + " pcs";
       }
@@ -379,6 +393,7 @@
         var msg = "Halo grosir.in, saya mau minta penawaran untuk:\n" +
           "Produk: " + productName + "\n" +
           variantLines +
+          (closure ? "Penutup: " + closure.label + "\n" : "") +
           "Sablon: " + (sablon ? sablon.label : (sablonSelect ? "Polos (tanpa sablon)" : "...")) + "\n" +
           "Jumlah: " + qty + " pcs\n" +
           "Perkiraan harga: " + formatIDR(unit) + "/pcs (total " + formatIDR(total) + ")\n" +
@@ -439,6 +454,7 @@
       input.addEventListener("input", function () { update(true); });
       input.addEventListener("change", function () { update(); });
     }
+    if (closureSelect) closureSelect.addEventListener("change", function () { update(); });
     if (sablonSelect) {
       sablonSelect.addEventListener("change", function () { update(); });
       filterSablonOptions();
